@@ -6,7 +6,8 @@ app = Flask(__name__)
 def home():
     return "Hello, weather!"
 
+
 @app.route("/about")
 def about():
-    return "Here is the information about this current page!: \n" \
-    "Current status: N/A"
+    return ("Here is the information about this current page!: \n" 
+    "Current status: N/A")
